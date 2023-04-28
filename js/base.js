@@ -1,6 +1,7 @@
 const nome = "Giovane";
 let nome2 =  "";
 let pessoaDefault = {
+
     nome: "Giovane Amaral",
     idade: "19",
     trabalho: "Estudante"
@@ -9,6 +10,7 @@ let pessoaDefault = {
 let nomes = ["Giovane Amaral", "Maria Clara", "Leandra Silva"];
 let pessoas = [
     {
+
     nome: "Giovane Amaral",
     idade: "19",
     trabalho: "Estudante"
@@ -20,14 +22,7 @@ let pessoas = [
     }    
 ];
 
-/*console.log("Vai aparecer minha cosnt")
-console.log(nome2);
 
-nome2 = "Giovane Amaral";
-
-console.log("Valor alterado:");
-console.log(nome2);
-*/
 function alterarNome(){
     nome2 = "Maria Silva";
     console.log("Valor alterado");
